@@ -27,7 +27,6 @@ public static class SearchInitializer
             new ("tags", FieldType.StringArray),
             new ("createdAt", FieldType.Int64),
             new ("answerCount", FieldType.Int32),
-            new ("answer", FieldType.String),
             new ("hasAcceptedAnswer", FieldType.Bool),
         })
         {
